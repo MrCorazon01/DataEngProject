@@ -1,0 +1,1993 @@
+{
+  "customers": [
+    {
+      "customer_id": "C40158",
+      "first_name": "Xavier",
+      "last_name": "Antoine",
+      "gender": "M",
+      "email": "xavier.chauveau@yahoo.fr",
+      "phone": "+221701098618",
+      "address": {
+        "street": "31, avenue Lucas Jacob",
+        "city": "Mbour",
+        "region": "Sédhiou",
+        "postal_code": "24853"
+      },
+      "registration_date": "2025-02-07T22:16:55.530352",
+      "birth_date": "1964-10-07",
+      "profession": "comptable",
+      "segment": "premium",
+      "acquisition_source": "publicité_instagram",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 265513,
+        "total_orders": 11,
+        "last_order_date": "2025-02-08T22:16:55.530352",
+        "average_order_value": 24137,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "visage",
+          "maquillage"
+        ],
+        "communication_channel": "courrier",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C72065",
+      "first_name": "Marguerite",
+      "last_name": "Techer",
+      "gender": "F",
+      "email": "marguerite.turpin@yahoo.fr",
+      "phone": "+221767946673",
+      "address": {
+        "street": "chemin Nicolas Lemoine",
+        "city": "Dakar",
+        "region": "Fatick",
+        "postal_code": "22898"
+      },
+      "registration_date": "2025-02-11T23:54:30.760004",
+      "birth_date": "1957-08-29",
+      "profession": "infirmier",
+      "segment": "standard",
+      "acquisition_source": "influenceur",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 167295,
+        "total_orders": 15,
+        "last_order_date": "2025-02-28T23:54:30.760004",
+        "average_order_value": 11153,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "visage",
+          "homme",
+          "corps",
+          "maquillage"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C26859",
+      "first_name": "Anouk",
+      "last_name": "Vallée",
+      "gender": "F",
+      "email": "anouk.voisin@orange.sn",
+      "phone": "+221768796024",
+      "address": {
+        "street": "59, chemin de Dumas",
+        "city": "Rufisque",
+        "region": "Ziguinchor",
+        "postal_code": "67441"
+      },
+      "registration_date": "2025-01-04T08:16:43.444551",
+      "birth_date": "1981-07-12",
+      "profession": "chauffeur",
+      "segment": "premium",
+      "acquisition_source": "partenariat",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 427503,
+        "total_orders": 8,
+        "last_order_date": "2025-03-03T08:16:43.444551",
+        "average_order_value": 53437,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "maquillage",
+          "bio",
+          "cheveux"
+        ],
+        "communication_channel": "whatsapp",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C80356",
+      "first_name": "Aimé",
+      "last_name": "Meunier",
+      "gender": "M",
+      "email": "aimé.schmitt@hotmail.fr",
+      "phone": "+221709464361",
+      "address": {
+        "street": "11, boulevard Nathalie Hebert",
+        "city": "Rufisque",
+        "region": "Kolda",
+        "postal_code": "44000"
+      },
+      "registration_date": "2025-01-29T21:04:58.675945",
+      "birth_date": "1963-09-07",
+      "profession": "commerçant",
+      "segment": "premium",
+      "acquisition_source": "bouche_a_oreille",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 383242,
+        "total_orders": 5,
+        "last_order_date": "2025-02-12T21:04:58.675945",
+        "average_order_value": 76648,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "bio",
+          "corps"
+        ],
+        "communication_channel": "chat",
+        "preferred_language": "français",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C43923",
+      "first_name": "Catherine",
+      "last_name": "Coste",
+      "gender": "F",
+      "email": "catherine.bodin@yahoo.fr",
+      "phone": "+221777417679",
+      "address": {
+        "street": "9, chemin Michelle Diallo",
+        "city": "Touba",
+        "region": "Ziguinchor",
+        "postal_code": "84947"
+      },
+      "registration_date": "2025-01-25T06:56:51.158905",
+      "birth_date": "2005-04-26",
+      "profession": "entrepreneur",
+      "segment": "premium",
+      "acquisition_source": "publicité_facebook",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 218721,
+        "total_orders": 5,
+        "last_order_date": "2025-01-27T06:56:51.158905",
+        "average_order_value": 43744,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "visage"
+        ],
+        "communication_channel": "email",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C83524",
+      "first_name": "Auguste",
+      "last_name": "Vaillant",
+      "gender": "M",
+      "email": "auguste.leclerc@hotmail.fr",
+      "phone": "+221709041080",
+      "address": {
+        "street": "62, rue Blin",
+        "city": "Diourbel",
+        "region": "Diourbel",
+        "postal_code": "86548"
+      },
+      "registration_date": "2025-03-03T13:39:27.486661",
+      "birth_date": "1989-04-25",
+      "profession": "pêcheur",
+      "segment": "premium",
+      "acquisition_source": "evenement",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 429900,
+        "total_orders": 8,
+        "last_order_date": "2025-03-11T13:39:27.486661",
+        "average_order_value": 53737,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "cheveux",
+          "corps",
+          "maquillage"
+        ],
+        "communication_channel": "courrier",
+        "preferred_language": "français",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C54112",
+      "first_name": "Arnaude",
+      "last_name": "Chevalier",
+      "gender": "F",
+      "email": "arnaude.giraud@hotmail.fr",
+      "phone": "+221782693702",
+      "address": {
+        "street": "39, avenue Josette Renault",
+        "city": "Louga",
+        "region": "Diourbel",
+        "postal_code": "33448"
+      },
+      "registration_date": "2025-03-18T01:23:41.841978",
+      "birth_date": "1999-05-21",
+      "profession": "chauffeur",
+      "segment": "vip",
+      "acquisition_source": "publicité_instagram",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 445529,
+        "total_orders": 19,
+        "last_order_date": "2025-03-20T01:23:41.841978",
+        "average_order_value": 23448,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "visage",
+          "cheveux",
+          "corps",
+          "bio"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "français",
+        "newsletter_frequency": "aucun"
+      }
+    },
+    {
+      "customer_id": "C21952",
+      "first_name": "Christiane",
+      "last_name": "Bertin",
+      "gender": "F",
+      "email": "christiane.bazin@gmail.com",
+      "phone": "+221761920007",
+      "address": {
+        "street": "38, rue de Guilbert",
+        "city": "Ziguinchor",
+        "region": "Kaffrine",
+        "postal_code": "21292"
+      },
+      "registration_date": "2025-03-16T15:35:56.567371",
+      "birth_date": "1977-04-24",
+      "profession": "retraité",
+      "segment": "inactive",
+      "acquisition_source": "publicité_radio",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 306963,
+        "total_orders": 9,
+        "last_order_date": "2025-03-16T15:35:56.567371",
+        "average_order_value": 34107,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "maquillage",
+          "homme",
+          "corps",
+          "cheveux"
+        ],
+        "communication_channel": "facebook",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C72029",
+      "first_name": "Henri",
+      "last_name": "Lecomte",
+      "gender": "M",
+      "email": "henri.roche@yahoo.fr",
+      "phone": "+221774975967",
+      "address": {
+        "street": "57, boulevard de Bourdon",
+        "city": "Kaolack",
+        "region": "Kédougou",
+        "postal_code": "93469"
+      },
+      "registration_date": "2025-03-06T02:41:56.556108",
+      "birth_date": "1993-10-16",
+      "profession": "informaticien",
+      "segment": "standard",
+      "acquisition_source": "bouche_a_oreille",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 346779,
+        "total_orders": 2,
+        "last_order_date": "2025-03-14T02:41:56.556108",
+        "average_order_value": 173389,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "bio",
+          "visage",
+          "maquillage"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C37613",
+      "first_name": "Martin",
+      "last_name": "Pinto",
+      "gender": "M",
+      "email": "martin.diallo@gmail.com",
+      "phone": "+221775233153",
+      "address": {
+        "street": "25, chemin de Mendès",
+        "city": "Touba",
+        "region": "Tambacounda",
+        "postal_code": "97054"
+      },
+      "registration_date": "2025-02-25T11:30:21.040516",
+      "birth_date": "1962-04-27",
+      "profession": "comptable",
+      "segment": "premium",
+      "acquisition_source": "influenceur",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 204145,
+        "total_orders": 2,
+        "last_order_date": "2025-03-15T11:30:21.040516",
+        "average_order_value": 102072,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "maquillage",
+          "cheveux",
+          "visage",
+          "bio"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C58765",
+      "first_name": "Timothée",
+      "last_name": "Bailly",
+      "gender": "M",
+      "email": "timothée.chauvin@gmail.com",
+      "phone": "+221781504756",
+      "address": {
+        "street": "71, avenue Leroy",
+        "city": "Mbour",
+        "region": "Fatick",
+        "postal_code": "97224"
+      },
+      "registration_date": "2025-01-08T19:13:15.865651",
+      "birth_date": "1996-08-29",
+      "profession": "chauffeur",
+      "segment": "standard",
+      "acquisition_source": "publicité_facebook",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 425612,
+        "total_orders": 5,
+        "last_order_date": "2025-02-03T19:13:15.865651",
+        "average_order_value": 85122,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "visage",
+          "maquillage"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "aucun"
+      }
+    },
+    {
+      "customer_id": "C30013",
+      "first_name": "Théodore",
+      "last_name": "Lecoq",
+      "gender": "M",
+      "email": "théodore.bernard@hotmail.fr",
+      "phone": "+221776526802",
+      "address": {
+        "street": "avenue de Alves",
+        "city": "Louga",
+        "region": "Ziguinchor",
+        "postal_code": "36152"
+      },
+      "registration_date": "2025-01-25T13:53:26.781885",
+      "birth_date": "1976-02-02",
+      "profession": "infirmier",
+      "segment": "vip",
+      "acquisition_source": "influenceur",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 249892,
+        "total_orders": 6,
+        "last_order_date": "2025-01-31T13:53:26.781885",
+        "average_order_value": 41648,
+        "preferred_payment_method": "card"
+      },
+      "preferences": {
+        "categories": [
+          "bio",
+          "homme",
+          "maquillage"
+        ],
+        "communication_channel": "email",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C14114",
+      "first_name": "David",
+      "last_name": "Legrand",
+      "gender": "M",
+      "email": "david.gillet@orange.sn",
+      "phone": "+221769326312",
+      "address": {
+        "street": "18, avenue de Marty",
+        "city": "Dakar",
+        "region": "Kolda",
+        "postal_code": "42945"
+      },
+      "registration_date": "2025-03-19T14:46:26.611451",
+      "birth_date": "1963-05-12",
+      "profession": "ingénieur",
+      "segment": "premium",
+      "acquisition_source": "partenariat",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 159640,
+        "total_orders": 8,
+        "last_order_date": null,
+        "average_order_value": 19955,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "homme",
+          "maquillage"
+        ],
+        "communication_channel": "email",
+        "preferred_language": "français",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C10430",
+      "first_name": "Roger",
+      "last_name": "Pruvost",
+      "gender": "M",
+      "email": "roger.delmas@orange.sn",
+      "phone": "+221707058645",
+      "address": {
+        "street": "chemin Augustin Marion",
+        "city": "Rufisque",
+        "region": "Sédhiou",
+        "postal_code": "91224"
+      },
+      "registration_date": "2025-02-12T04:17:03.183522",
+      "birth_date": "1996-06-19",
+      "profession": "fonctionnaire",
+      "segment": "premium",
+      "acquisition_source": "publicité_radio",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 147642,
+        "total_orders": 15,
+        "last_order_date": "2025-02-28T04:17:03.183522",
+        "average_order_value": 9842,
+        "preferred_payment_method": "card"
+      },
+      "preferences": {
+        "categories": [
+          "bio",
+          "visage"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "français",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C67884",
+      "first_name": "Jacqueline",
+      "last_name": "Laporte",
+      "gender": "F",
+      "email": "jacqueline.bazin@orange.sn",
+      "phone": "+221771783204",
+      "address": {
+        "street": "boulevard de Diaz",
+        "city": "Mbour",
+        "region": "Matam",
+        "postal_code": "46201"
+      },
+      "registration_date": "2025-03-09T10:22:21.606105",
+      "birth_date": "1962-03-01",
+      "profession": "chauffeur",
+      "segment": "vip",
+      "acquisition_source": "publicité_instagram",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 225018,
+        "total_orders": 4,
+        "last_order_date": "2025-03-13T10:22:21.606105",
+        "average_order_value": 56254,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "bio",
+          "maquillage"
+        ],
+        "communication_channel": "email",
+        "preferred_language": "français",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C45734",
+      "first_name": "Jérôme",
+      "last_name": "Bouvier",
+      "gender": "M",
+      "email": "jérôme.bailly@gmail.com",
+      "phone": "+221789798805",
+      "address": {
+        "street": "3, boulevard Marianne Dupuis",
+        "city": "Dakar",
+        "region": "Kaffrine",
+        "postal_code": "90803"
+      },
+      "registration_date": "2025-02-07T18:11:05.825965",
+      "birth_date": "1997-01-06",
+      "profession": "comptable",
+      "segment": "premium",
+      "acquisition_source": "recherche_google",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 99364,
+        "total_orders": 17,
+        "last_order_date": "2025-03-13T18:11:05.825965",
+        "average_order_value": 5844,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "homme",
+          "cheveux"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "aucun"
+      }
+    },
+    {
+      "customer_id": "C24831",
+      "first_name": "Léon",
+      "last_name": "Ruiz",
+      "gender": "M",
+      "email": "léon.colin@gmail.com",
+      "phone": "+221764515395",
+      "address": {
+        "street": "3, avenue de Bernard",
+        "city": "Dakar",
+        "region": "Diourbel",
+        "postal_code": "26495"
+      },
+      "registration_date": "2025-01-03T01:11:56.629059",
+      "birth_date": "1999-07-09",
+      "profession": "infirmier",
+      "segment": "premium",
+      "acquisition_source": "bouche_a_oreille",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 182509,
+        "total_orders": 1,
+        "last_order_date": "2025-02-21T01:11:56.629059",
+        "average_order_value": 182509,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "bio"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C72010",
+      "first_name": "Nathalie",
+      "last_name": "Lopes",
+      "gender": "F",
+      "email": "nathalie.rémy@orange.sn",
+      "phone": "+221784356977",
+      "address": {
+        "street": "49, chemin Allard",
+        "city": "Ziguinchor",
+        "region": "Fatick",
+        "postal_code": "18119"
+      },
+      "registration_date": "2025-02-12T21:02:29.601820",
+      "birth_date": "1966-07-09",
+      "profession": "agriculteur",
+      "segment": "premium",
+      "acquisition_source": "evenement",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 207861,
+        "total_orders": 6,
+        "last_order_date": "2025-03-13T21:02:29.601820",
+        "average_order_value": 34643,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "cheveux",
+          "maquillage"
+        ],
+        "communication_channel": "email",
+        "preferred_language": "français",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C77198",
+      "first_name": "Juliette",
+      "last_name": "Lucas",
+      "gender": "F",
+      "email": "juliette.camus@hotmail.fr",
+      "phone": "+221782592555",
+      "address": {
+        "street": "rue de Gros",
+        "city": "Thiès",
+        "region": "Kaffrine",
+        "postal_code": "33636"
+      },
+      "registration_date": "2025-02-12T22:04:41.289888",
+      "birth_date": "1984-10-07",
+      "profession": "entrepreneur",
+      "segment": "inactive",
+      "acquisition_source": "bouche_a_oreille",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 386016,
+        "total_orders": 8,
+        "last_order_date": "2025-03-03T22:04:41.289888",
+        "average_order_value": 48252,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "cheveux",
+          "corps",
+          "maquillage"
+        ],
+        "communication_channel": "courrier",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C60863",
+      "first_name": "Charlotte",
+      "last_name": "Valentin",
+      "gender": "F",
+      "email": "charlotte.perrier@orange.sn",
+      "phone": "+221703783586",
+      "address": {
+        "street": "10, rue Luce Lelièvre",
+        "city": "Dakar",
+        "region": "Sédhiou",
+        "postal_code": "69296"
+      },
+      "registration_date": "2025-02-05T19:27:04.846960",
+      "birth_date": "1958-09-13",
+      "profession": "infirmier",
+      "segment": "standard",
+      "acquisition_source": "publicité_radio",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 38413,
+        "total_orders": 5,
+        "last_order_date": "2025-03-15T19:27:04.846960",
+        "average_order_value": 7682,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "homme",
+          "visage",
+          "bio"
+        ],
+        "communication_channel": "chat",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C47693",
+      "first_name": "Franck",
+      "last_name": "Leconte",
+      "gender": "M",
+      "email": "franck.maury@yahoo.fr",
+      "phone": "+221709255549",
+      "address": {
+        "street": "59, rue Morin",
+        "city": "Saint-Louis",
+        "region": "Sédhiou",
+        "postal_code": "41347"
+      },
+      "registration_date": "2025-01-12T22:35:14.664387",
+      "birth_date": "1985-08-08",
+      "profession": "retraité",
+      "segment": "standard",
+      "acquisition_source": "publicité_radio",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 47952,
+        "total_orders": 18,
+        "last_order_date": "2025-01-20T22:35:14.664387",
+        "average_order_value": 2664,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "cheveux",
+          "bio",
+          "homme",
+          "visage"
+        ],
+        "communication_channel": "email",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C78307",
+      "first_name": "Lucy",
+      "last_name": "Payet",
+      "gender": "F",
+      "email": "lucy.legendre@orange.sn",
+      "phone": "+221769180557",
+      "address": {
+        "street": "50, boulevard Mendès",
+        "city": "Rufisque",
+        "region": "Kaolack",
+        "postal_code": "71062"
+      },
+      "registration_date": "2025-02-01T03:30:05.700119",
+      "birth_date": "1965-11-26",
+      "profession": "ingénieur",
+      "segment": "standard",
+      "acquisition_source": "bouche_a_oreille",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 374707,
+        "total_orders": 20,
+        "last_order_date": "2025-02-11T03:30:05.700119",
+        "average_order_value": 18735,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "bio",
+          "cheveux",
+          "homme"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "français",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C64751",
+      "first_name": "Timothée",
+      "last_name": "Gillet",
+      "gender": "M",
+      "email": "timothée.coulon@orange.sn",
+      "phone": "+221766328115",
+      "address": {
+        "street": "86, rue Normand",
+        "city": "Kaolack",
+        "region": "Kaolack",
+        "postal_code": "10421"
+      },
+      "registration_date": "2025-01-30T22:09:31.205744",
+      "birth_date": "1975-04-14",
+      "profession": "comptable",
+      "segment": "inactive",
+      "acquisition_source": "publicité_tv",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 127456,
+        "total_orders": 12,
+        "last_order_date": "2025-03-15T22:09:31.205744",
+        "average_order_value": 10621,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "maquillage",
+          "corps",
+          "homme"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "français",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C34736",
+      "first_name": "Benjamin",
+      "last_name": "Lefebvre",
+      "gender": "M",
+      "email": "benjamin.lenoir@gmail.com",
+      "phone": "+221783245865",
+      "address": {
+        "street": "401, rue Christiane Marchand",
+        "city": "Ziguinchor",
+        "region": "Dakar",
+        "postal_code": "54225"
+      },
+      "registration_date": "2025-03-08T00:22:48.941714",
+      "birth_date": "1998-10-06",
+      "profession": "fonctionnaire",
+      "segment": "standard",
+      "acquisition_source": "influenceur",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 96357,
+        "total_orders": 19,
+        "last_order_date": "2025-03-18T00:22:48.941714",
+        "average_order_value": 5071,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "bio",
+          "homme",
+          "maquillage",
+          "visage"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C99955",
+      "first_name": "Émile",
+      "last_name": "Brunel",
+      "gender": "M",
+      "email": "émile.colin@hotmail.fr",
+      "phone": "+221768433404",
+      "address": {
+        "street": "13, boulevard de David",
+        "city": "Touba",
+        "region": "Fatick",
+        "postal_code": "75334"
+      },
+      "registration_date": "2025-01-24T02:38:29.475600",
+      "birth_date": "1993-04-29",
+      "profession": "retraité",
+      "segment": "premium",
+      "acquisition_source": "publicité_tv",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 207296,
+        "total_orders": 1,
+        "last_order_date": "2025-02-18T02:38:29.475600",
+        "average_order_value": 207296,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "corps",
+          "visage"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C77225",
+      "first_name": "Océane",
+      "last_name": "Léger",
+      "gender": "F",
+      "email": "océane.turpin@orange.sn",
+      "phone": "+221788089485",
+      "address": {
+        "street": "873, chemin de Jacquot",
+        "city": "Dakar",
+        "region": "Dakar",
+        "postal_code": "96145"
+      },
+      "registration_date": "2025-01-02T17:33:12.402424",
+      "birth_date": "1967-06-11",
+      "profession": "chauffeur",
+      "segment": "inactive",
+      "acquisition_source": "publicité_facebook",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 352061,
+        "total_orders": 13,
+        "last_order_date": "2025-03-12T17:33:12.402424",
+        "average_order_value": 27081,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "corps"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C93694",
+      "first_name": "Jean",
+      "last_name": "Maréchal",
+      "gender": "M",
+      "email": "jean.petit@gmail.com",
+      "phone": "+221767078446",
+      "address": {
+        "street": "5, rue Jacquet",
+        "city": "Rufisque",
+        "region": "Fatick",
+        "postal_code": "10231"
+      },
+      "registration_date": "2025-01-27T04:46:36.717093",
+      "birth_date": "1976-05-19",
+      "profession": "chauffeur",
+      "segment": "standard",
+      "acquisition_source": "evenement",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 340476,
+        "total_orders": 5,
+        "last_order_date": "2025-03-03T04:46:36.717093",
+        "average_order_value": 68095,
+        "preferred_payment_method": "card"
+      },
+      "preferences": {
+        "categories": [
+          "visage"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "français",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C89810",
+      "first_name": "Timothée",
+      "last_name": "Voisin",
+      "gender": "M",
+      "email": "timothée.lebrun@gmail.com",
+      "phone": "+221783811781",
+      "address": {
+        "street": "rue Nicole Barbier",
+        "city": "Dakar",
+        "region": "Dakar",
+        "postal_code": "76929"
+      },
+      "registration_date": "2025-02-20T01:22:56.847990",
+      "birth_date": "1980-06-19",
+      "profession": "pêcheur",
+      "segment": "vip",
+      "acquisition_source": "publicité_instagram",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 458884,
+        "total_orders": 11,
+        "last_order_date": "2025-03-08T01:22:56.847990",
+        "average_order_value": 41716,
+        "preferred_payment_method": "card"
+      },
+      "preferences": {
+        "categories": [
+          "maquillage"
+        ],
+        "communication_channel": "boutique",
+        "preferred_language": "français",
+        "newsletter_frequency": "aucun"
+      }
+    },
+    {
+      "customer_id": "C42478",
+      "first_name": "Catherine",
+      "last_name": "Dumont",
+      "gender": "F",
+      "email": "catherine.albert@orange.sn",
+      "phone": "+221789015250",
+      "address": {
+        "street": "77, chemin de Thibault",
+        "city": "Dakar",
+        "region": "Tambacounda",
+        "postal_code": "55165"
+      },
+      "registration_date": "2025-01-08T17:18:51.307171",
+      "birth_date": "1973-07-30",
+      "profession": "artisan",
+      "segment": "standard",
+      "acquisition_source": "publicité_tv",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 209434,
+        "total_orders": 2,
+        "last_order_date": "2025-01-21T17:18:51.307171",
+        "average_order_value": 104717,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "homme",
+          "corps",
+          "maquillage"
+        ],
+        "communication_channel": "facebook",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C19651",
+      "first_name": "Inès",
+      "last_name": "Dupuy",
+      "gender": "F",
+      "email": "inès.parent@hotmail.fr",
+      "phone": "+221702665669",
+      "address": {
+        "street": "chemin Jérôme Delmas",
+        "city": "Touba",
+        "region": "Kaffrine",
+        "postal_code": "35039"
+      },
+      "registration_date": "2025-02-17T07:40:56.820935",
+      "birth_date": "1955-09-14",
+      "profession": "infirmier",
+      "segment": "vip",
+      "acquisition_source": "publicité_facebook",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 489430,
+        "total_orders": 15,
+        "last_order_date": "2025-03-13T07:40:56.820935",
+        "average_order_value": 32628,
+        "preferred_payment_method": "cash"
+      },
+      "preferences": {
+        "categories": [
+          "maquillage",
+          "homme",
+          "visage"
+        ],
+        "communication_channel": "whatsapp",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "mensuel"
+      }
+    },
+    {
+      "customer_id": "C28492",
+      "first_name": "Anaïs",
+      "last_name": "Leclercq",
+      "gender": "F",
+      "email": "anaïs.fabre@orange.sn",
+      "phone": "+221709220382",
+      "address": {
+        "street": "48, chemin Poulain",
+        "city": "Rufisque",
+        "region": "Kaolack",
+        "postal_code": "97626"
+      },
+      "registration_date": "2025-02-06T03:59:29.799844",
+      "birth_date": "1982-01-06",
+      "profession": "chauffeur",
+      "segment": "vip",
+      "acquisition_source": "partenariat",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 274822,
+        "total_orders": 11,
+        "last_order_date": "2025-02-12T03:59:29.799844",
+        "average_order_value": 24983,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "cheveux",
+          "corps",
+          "bio"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "français",
+        "newsletter_frequency": "aucun"
+      }
+    },
+    {
+      "customer_id": "C41975",
+      "first_name": "Caroline",
+      "last_name": "Bernier",
+      "gender": "F",
+      "email": "caroline.giraud@hotmail.fr",
+      "phone": "+221762417282",
+      "address": {
+        "street": "6, boulevard Le Roux",
+        "city": "Saint-Louis",
+        "region": "Louga",
+        "postal_code": "57303"
+      },
+      "registration_date": "2025-02-03T19:16:22.275359",
+      "birth_date": "1959-07-24",
+      "profession": "enseignant",
+      "segment": "premium",
+      "acquisition_source": "recherche_google",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 318241,
+        "total_orders": 14,
+        "last_order_date": "2025-03-01T19:16:22.275359",
+        "average_order_value": 22731,
+        "preferred_payment_method": "orange_money"
+      },
+      "preferences": {
+        "categories": [
+          "cheveux",
+          "corps"
+        ],
+        "communication_channel": "chat",
+        "preferred_language": "français",
+        "newsletter_frequency": "aucun"
+      }
+    },
+    {
+      "customer_id": "C60676",
+      "first_name": "Isaac",
+      "last_name": "Bouvet",
+      "gender": "M",
+      "email": "isaac.ferreira@yahoo.fr",
+      "phone": "+221709588205",
+      "address": {
+        "street": "rue de Georges",
+        "city": "Dakar",
+        "region": "Kédougou",
+        "postal_code": "42260"
+      },
+      "registration_date": "2025-03-03T09:53:48.002733",
+      "birth_date": "1980-12-31",
+      "profession": "médecin",
+      "segment": "vip",
+      "acquisition_source": "publicité_facebook",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 425747,
+        "total_orders": 20,
+        "last_order_date": "2025-03-18T09:53:48.002733",
+        "average_order_value": 21287,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "homme",
+          "visage"
+        ],
+        "communication_channel": "whatsapp",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "aucun"
+      }
+    },
+    {
+      "customer_id": "C53538",
+      "first_name": "Marcelle",
+      "last_name": "Gilbert",
+      "gender": "F",
+      "email": "marcelle.menard@hotmail.fr",
+      "phone": "+221764733019",
+      "address": {
+        "street": "952, rue Godard",
+        "city": "Ziguinchor",
+        "region": "Thiès",
+        "postal_code": "92468"
+      },
+      "registration_date": "2025-03-08T00:09:31.572124",
+      "birth_date": "1999-03-16",
+      "profession": "retraité",
+      "segment": "standard",
+      "acquisition_source": "influenceur",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 321008,
+        "total_orders": 10,
+        "last_order_date": "2025-03-18T00:09:31.572124",
+        "average_order_value": 32100,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "bio"
+        ],
+        "communication_channel": "courrier",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C43135",
+      "first_name": "Daniel",
+      "last_name": "Laurent",
+      "gender": "M",
+      "email": "daniel.renaud@orange.sn",
+      "phone": "+221779586951",
+      "address": {
+        "street": "35, chemin Gosselin",
+        "city": "Saint-Louis",
+        "region": "Kolda",
+        "postal_code": "91260"
+      },
+      "registration_date": "2025-03-12T18:53:40.584027",
+      "birth_date": "1986-04-01",
+      "profession": "agriculteur",
+      "segment": "standard",
+      "acquisition_source": "publicité_tv",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 373066,
+        "total_orders": 20,
+        "last_order_date": "2025-03-19T18:53:40.584027",
+        "average_order_value": 18653,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "corps",
+          "visage"
+        ],
+        "communication_channel": "courrier",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "hebdomadaire"
+      }
+    },
+    {
+      "customer_id": "C14695",
+      "first_name": "Jacques",
+      "last_name": "Laurent",
+      "gender": "M",
+      "email": "jacques.chevallier@gmail.com",
+      "phone": "+221768456831",
+      "address": {
+        "street": "16, rue de Renard",
+        "city": "Ziguinchor",
+        "region": "Tambacounda",
+        "postal_code": "49846"
+      },
+      "registration_date": "2025-01-04T13:27:55.930063",
+      "birth_date": "1984-10-07",
+      "profession": "fonctionnaire",
+      "segment": "standard",
+      "acquisition_source": "influenceur",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 40550,
+        "total_orders": 15,
+        "last_order_date": "2025-03-19T13:27:55.930063",
+        "average_order_value": 2703,
+        "preferred_payment_method": "wave"
+      },
+      "preferences": {
+        "categories": [
+          "corps",
+          "bio",
+          "visage"
+        ],
+        "communication_channel": "chat",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C30377",
+      "first_name": "Anastasie",
+      "last_name": "Morin",
+      "gender": "F",
+      "email": "anastasie.lebrun@yahoo.fr",
+      "phone": "+221704578111",
+      "address": {
+        "street": "61, avenue Pasquier",
+        "city": "Louga",
+        "region": "Louga",
+        "postal_code": "73417"
+      },
+      "registration_date": "2025-02-05T11:14:23.536640",
+      "birth_date": "1970-08-19",
+      "profession": "infirmier",
+      "segment": "vip",
+      "acquisition_source": "evenement",
+      "consent_marketing": false,
+      "customer_value": {
+        "lifetime_value": 409411,
+        "total_orders": 0,
+        "last_order_date": null,
+        "average_order_value": 0,
+        "preferred_payment_method": "free_money"
+      },
+      "preferences": {
+        "categories": [
+          "bio"
+        ],
+        "communication_channel": "whatsapp",
+        "preferred_language": "wolof",
+        "newsletter_frequency": "quotidien"
+      }
+    },
+    {
+      "customer_id": "C31503",
+      "first_name": "Lucy",
+      "last_name": "Hamel",
+      "gender": "F",
+      "email": "lucy.fabre@hotmail.fr",
+      "phone": "+221778675327",
+      "address": {
+        "street": "83, avenue Lacroix",
+        "city": "Diourbel",
+        "region": "Fatick",
+        "postal_code": "41878"
+      },
+      "registration_date": "2025-01-20T00:57:42.298044",
+      "birth_date": "2000-03-11",
+      "profession": "infirmier",
+      "segment": "inactive",
+      "acquisition_source": "evenement",
+      "consent_marketing": true,
+      "customer_value": {
+        "lifetime_value": 130159,
+        "total_orders": 5,
+        "last_order_date": "2025-03-15T00:57:42.298044",
+        "average_order_value": 26031,
+        "preferred_payment_method": "card"
+      },
+      "preferences": {
+        "categories": [
+          "cheveux",
+          "homme",
+          "bio",
+          "corps"
+        ],
+        "communication_channel": "telephone",
+        "preferred_language": "français",
+        "newsletter_frequency": "quotidien"
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "interaction_id": "INT-1742466558-8550",
+      "customer_id": "C43923",
+      "customer_name": "Catherine Coste",
+      "interaction_date": "2025-01-27T06:56:51.158905",
+      "type": "feedback_produit",
+      "channel": "boutique",
+      "subject": "Interaction feedback_produit",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Éléonore-Alix Rivière",
+      "resolution_time_minutes": 18,
+      "customer_satisfaction": 3
+    },
+    {
+      "interaction_id": "INT-1742466558-4395",
+      "customer_id": "C78307",
+      "customer_name": "Lucy Payet",
+      "interaction_date": "2025-03-10T03:30:05.700119",
+      "type": "demande_facture",
+      "channel": "facebook",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "en_attente_client",
+      "priority": "moyenne",
+      "handled_by": "Céline Arnaud",
+      "resolution_time_minutes": 8,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-7132",
+      "customer_id": "C64751",
+      "customer_name": "Timothée Gillet",
+      "interaction_date": "2025-02-13T22:09:31.205744",
+      "type": "feedback_produit",
+      "channel": "facebook",
+      "subject": "Interaction feedback_produit",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "fermée",
+      "priority": "urgente",
+      "handled_by": "Édith Baudry de la Guillot",
+      "resolution_time_minutes": 56,
+      "customer_satisfaction": 1
+    },
+    {
+      "interaction_id": "INT-1742466558-8561",
+      "customer_id": "C34736",
+      "customer_name": "Benjamin Lefebvre",
+      "interaction_date": "2025-03-20T00:22:48.941714",
+      "type": "question_paiement",
+      "channel": "courrier",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Guy Pereira",
+      "resolution_time_minutes": 40,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-6303",
+      "customer_id": "C99955",
+      "customer_name": "Émile Brunel",
+      "interaction_date": "2025-03-06T02:38:29.475600",
+      "type": "question_paiement",
+      "channel": "chat",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "fermée",
+      "priority": "urgente",
+      "handled_by": "Stéphane Fernandes",
+      "resolution_time_minutes": 87,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-7099",
+      "customer_id": "C77225",
+      "customer_name": "Océane Léger",
+      "interaction_date": "2025-01-12T17:33:12.402424",
+      "type": "question_commande",
+      "channel": "chat",
+      "subject": "Interaction question_commande",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "fermée",
+      "priority": "haute",
+      "handled_by": "Rémy Durand",
+      "resolution_time_minutes": 68,
+      "customer_satisfaction": 3
+    },
+    {
+      "interaction_id": "INT-1742466558-4453",
+      "customer_id": "C93694",
+      "customer_name": "Jean Maréchal",
+      "interaction_date": "2025-03-05T04:46:36.717093",
+      "type": "demande_information",
+      "channel": "chat",
+      "subject": "Information sur un service",
+      "notes": "Le client souhaite des informations complémentaires.",
+      "status": "fermée",
+      "priority": "urgente",
+      "handled_by": "Nicolas Rolland",
+      "resolution_time_minutes": 86,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-6040",
+      "customer_id": "C80356",
+      "customer_name": "Aimé Meunier",
+      "interaction_date": "2025-03-04T21:04:58.675945",
+      "type": "demande_information",
+      "channel": "chat",
+      "subject": "Information sur une commande",
+      "notes": "Le client souhaite des informations complémentaires.",
+      "status": "ouverte",
+      "priority": "haute",
+      "handled_by": "Margot Lefort",
+      "resolution_time_minutes": 12,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-6226",
+      "customer_id": "C89810",
+      "customer_name": "Timothée Voisin",
+      "interaction_date": "2025-02-26T01:22:56.847990",
+      "type": "question_paiement",
+      "channel": "email",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Christelle Gosselin",
+      "resolution_time_minutes": 80,
+      "customer_satisfaction": 3
+    },
+    {
+      "interaction_id": "INT-1742466558-5412",
+      "customer_id": "C83524",
+      "customer_name": "Auguste Vaillant",
+      "interaction_date": "2025-03-05T13:39:27.486661",
+      "type": "retour_produit",
+      "channel": "whatsapp",
+      "subject": "Demande de retour produit",
+      "notes": "Le client souhaite retourner un article qui ne convient pas à ses attentes.",
+      "status": "resolue",
+      "priority": "basse",
+      "handled_by": "Sébastien Albert",
+      "resolution_time_minutes": 16,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-3492",
+      "customer_id": "C72029",
+      "customer_name": "Henri Lecomte",
+      "interaction_date": "2025-03-07T02:41:56.556108",
+      "type": "demande_information",
+      "channel": "boutique",
+      "subject": "Information sur un produit",
+      "notes": "Le client souhaite des informations complémentaires.",
+      "status": "ouverte",
+      "priority": "urgente",
+      "handled_by": "Françoise Teixeira",
+      "resolution_time_minutes": 5,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-1817",
+      "customer_id": "C42478",
+      "customer_name": "Catherine Dumont",
+      "interaction_date": "2025-03-17T17:18:51.307171",
+      "type": "demande_facture",
+      "channel": "boutique",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "fermée",
+      "priority": "basse",
+      "handled_by": "Antoinette Sanchez",
+      "resolution_time_minutes": 5,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-7670",
+      "customer_id": "C45734",
+      "customer_name": "Jérôme Bouvier",
+      "interaction_date": "2025-02-14T18:11:05.825965",
+      "type": "retour_produit",
+      "channel": "whatsapp",
+      "subject": "Demande de retour produit",
+      "notes": "Le client souhaite retourner un article qui ne convient pas à ses attentes.",
+      "status": "en_cours",
+      "priority": "haute",
+      "handled_by": "Martine Joly",
+      "resolution_time_minutes": 24,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-1198",
+      "customer_id": "C72065",
+      "customer_name": "Marguerite Techer",
+      "interaction_date": "2025-03-10T23:54:30.760004",
+      "type": "demande_facture",
+      "channel": "chat",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "resolue",
+      "priority": "haute",
+      "handled_by": "Élisabeth Berger",
+      "resolution_time_minutes": null,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-2442",
+      "customer_id": "C21952",
+      "customer_name": "Christiane Bertin",
+      "interaction_date": "2025-03-19T15:35:56.567371",
+      "type": "reclamation",
+      "channel": "email",
+      "subject": "Réclamation concernant une commande",
+      "notes": "Le client n'est pas satisfait de la qualité du produit reçu.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Laetitia Lenoir",
+      "resolution_time_minutes": null,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-3133",
+      "customer_id": "C72065",
+      "customer_name": "Marguerite Techer",
+      "interaction_date": "2025-03-19T23:54:30.760004",
+      "type": "retour_produit",
+      "channel": "whatsapp",
+      "subject": "Demande de retour produit",
+      "notes": "Le client souhaite retourner un article qui ne convient pas à ses attentes.",
+      "status": "fermée",
+      "priority": "urgente",
+      "handled_by": "Benoît Wagner-Aubry",
+      "resolution_time_minutes": 6,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-9677",
+      "customer_id": "C19651",
+      "customer_name": "Inès Dupuy",
+      "interaction_date": "2025-02-26T07:40:56.820935",
+      "type": "reclamation",
+      "channel": "courrier",
+      "subject": "Réclamation concernant une commande",
+      "notes": "Le client n'est pas satisfait de la qualité du produit reçu.",
+      "status": "resolue",
+      "priority": "basse",
+      "handled_by": "Célina Grégoire",
+      "resolution_time_minutes": 10,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-9175",
+      "customer_id": "C26859",
+      "customer_name": "Anouk Vallée",
+      "interaction_date": "2025-03-20T08:16:43.444551",
+      "type": "retour_produit",
+      "channel": "telephone",
+      "subject": "Demande de retour produit",
+      "notes": "Le client souhaite retourner un article qui ne convient pas à ses attentes.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Marc Besnard",
+      "resolution_time_minutes": 97,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-9659",
+      "customer_id": "C28492",
+      "customer_name": "Anaïs Leclercq",
+      "interaction_date": "2025-02-24T03:59:29.799844",
+      "type": "question_commande",
+      "channel": "telephone",
+      "subject": "Interaction question_commande",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "en_attente_client",
+      "priority": "haute",
+      "handled_by": "Laure-Adrienne Antoine",
+      "resolution_time_minutes": 19,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-5404",
+      "customer_id": "C78307",
+      "customer_name": "Lucy Payet",
+      "interaction_date": "2025-03-01T03:30:05.700119",
+      "type": "question_paiement",
+      "channel": "courrier",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "resolue",
+      "priority": "haute",
+      "handled_by": "William Chauveau",
+      "resolution_time_minutes": 12,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-6265",
+      "customer_id": "C41975",
+      "customer_name": "Caroline Bernier",
+      "interaction_date": "2025-02-13T19:16:22.275359",
+      "type": "question_paiement",
+      "channel": "telephone",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "fermée",
+      "priority": "moyenne",
+      "handled_by": "Louise Tessier",
+      "resolution_time_minutes": 34,
+      "customer_satisfaction": 1
+    },
+    {
+      "interaction_id": "INT-1742466558-7407",
+      "customer_id": "C67884",
+      "customer_name": "Jacqueline Laporte",
+      "interaction_date": "2025-03-14T10:22:21.606105",
+      "type": "demande_information",
+      "channel": "telephone",
+      "subject": "Information sur une commande",
+      "notes": "Le client souhaite des informations complémentaires.",
+      "status": "fermée",
+      "priority": "haute",
+      "handled_by": "Frédérique Arnaud",
+      "resolution_time_minutes": null,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-8858",
+      "customer_id": "C60676",
+      "customer_name": "Isaac Bouvet",
+      "interaction_date": "2025-03-19T09:53:48.002733",
+      "type": "demande_facture",
+      "channel": "boutique",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "en_cours",
+      "priority": "urgente",
+      "handled_by": "Élise de la Gaillard",
+      "resolution_time_minutes": 72,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-9352",
+      "customer_id": "C78307",
+      "customer_name": "Lucy Payet",
+      "interaction_date": "2025-03-13T03:30:05.700119",
+      "type": "question_paiement",
+      "channel": "email",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "en_attente_client",
+      "priority": "basse",
+      "handled_by": "Andrée Boutin",
+      "resolution_time_minutes": 82,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-6200",
+      "customer_id": "C53538",
+      "customer_name": "Marcelle Gilbert",
+      "interaction_date": "2025-03-20T00:09:31.572124",
+      "type": "reclamation",
+      "channel": "facebook",
+      "subject": "Réclamation concernant une commande",
+      "notes": "Le client n'est pas satisfait de la qualité du produit reçu.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Zacharie de la Giraud",
+      "resolution_time_minutes": 55,
+      "customer_satisfaction": 1
+    },
+    {
+      "interaction_id": "INT-1742466558-3142",
+      "customer_id": "C47693",
+      "customer_name": "Franck Leconte",
+      "interaction_date": "2025-02-18T22:35:14.664387",
+      "type": "reclamation",
+      "channel": "courrier",
+      "subject": "Réclamation concernant une commande",
+      "notes": "Le client n'est pas satisfait de la qualité du produit reçu.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Augustin Legros",
+      "resolution_time_minutes": 77,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-9771",
+      "customer_id": "C54112",
+      "customer_name": "Arnaude Chevalier",
+      "interaction_date": "2025-03-19T01:23:41.841978",
+      "type": "demande_information",
+      "channel": "boutique",
+      "subject": "Information sur un service",
+      "notes": "Le client souhaite des informations complémentaires.",
+      "status": "resolue",
+      "priority": "basse",
+      "handled_by": "Michelle-Thérèse Noël",
+      "resolution_time_minutes": null,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-8607",
+      "customer_id": "C43135",
+      "customer_name": "Daniel Laurent",
+      "interaction_date": "2025-03-13T18:53:40.584027",
+      "type": "demande_facture",
+      "channel": "whatsapp",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "ouverte",
+      "priority": "urgente",
+      "handled_by": "Margaret Roy-Daniel",
+      "resolution_time_minutes": 72,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-6119",
+      "customer_id": "C14695",
+      "customer_name": "Jacques Laurent",
+      "interaction_date": "2025-03-09T13:27:55.930063",
+      "type": "feedback_produit",
+      "channel": "email",
+      "subject": "Interaction feedback_produit",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "en_attente_client",
+      "priority": "urgente",
+      "handled_by": "Laure Godard-Munoz",
+      "resolution_time_minutes": 74,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-3607",
+      "customer_id": "C67884",
+      "customer_name": "Jacqueline Laporte",
+      "interaction_date": "2025-03-13T10:22:21.606105",
+      "type": "question_commande",
+      "channel": "chat",
+      "subject": "Interaction question_commande",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "resolue",
+      "priority": "haute",
+      "handled_by": "Anastasie Guyot",
+      "resolution_time_minutes": 109,
+      "customer_satisfaction": null
+    },
+    {
+      "interaction_id": "INT-1742466558-8116",
+      "customer_id": "C80356",
+      "customer_name": "Aimé Meunier",
+      "interaction_date": "2025-02-19T21:04:58.675945",
+      "type": "feedback_produit",
+      "channel": "boutique",
+      "subject": "Interaction feedback_produit",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "resolue",
+      "priority": "haute",
+      "handled_by": "Margaret Charpentier",
+      "resolution_time_minutes": 41,
+      "customer_satisfaction": 5
+    },
+    {
+      "interaction_id": "INT-1742466558-2486",
+      "customer_id": "C60863",
+      "customer_name": "Charlotte Valentin",
+      "interaction_date": "2025-03-15T19:27:04.846960",
+      "type": "question_paiement",
+      "channel": "courrier",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "ouverte",
+      "priority": "moyenne",
+      "handled_by": "Valérie Bourgeois",
+      "resolution_time_minutes": 86,
+      "customer_satisfaction": 3
+    },
+    {
+      "interaction_id": "INT-1742466558-7758",
+      "customer_id": "C72029",
+      "customer_name": "Henri Lecomte",
+      "interaction_date": "2025-03-07T02:41:56.556108",
+      "type": "demande_facture",
+      "channel": "telephone",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "en_attente_client",
+      "priority": "urgente",
+      "handled_by": "Thibaut Rousset",
+      "resolution_time_minutes": 41,
+      "customer_satisfaction": 2
+    },
+    {
+      "interaction_id": "INT-1742466558-3390",
+      "customer_id": "C26859",
+      "customer_name": "Anouk Vallée",
+      "interaction_date": "2025-01-31T08:16:43.444551",
+      "type": "demande_facture",
+      "channel": "telephone",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "en_attente_client",
+      "priority": "urgente",
+      "handled_by": "Gilbert Letellier",
+      "resolution_time_minutes": null,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-8082",
+      "customer_id": "C30377",
+      "customer_name": "Anastasie Morin",
+      "interaction_date": "2025-03-01T11:14:23.536640",
+      "type": "question_commande",
+      "channel": "telephone",
+      "subject": "Interaction question_commande",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "ouverte",
+      "priority": "haute",
+      "handled_by": "Odette Martel",
+      "resolution_time_minutes": 90,
+      "customer_satisfaction": 1
+    },
+    {
+      "interaction_id": "INT-1742466558-7202",
+      "customer_id": "C78307",
+      "customer_name": "Lucy Payet",
+      "interaction_date": "2025-02-03T03:30:05.700119",
+      "type": "reclamation",
+      "channel": "boutique",
+      "subject": "Réclamation concernant une commande",
+      "notes": "Le client n'est pas satisfait de la qualité du produit reçu.",
+      "status": "en_cours",
+      "priority": "basse",
+      "handled_by": "Marcelle de la Vallée",
+      "resolution_time_minutes": 75,
+      "customer_satisfaction": 1
+    },
+    {
+      "interaction_id": "INT-1742466558-4878",
+      "customer_id": "C43135",
+      "customer_name": "Daniel Laurent",
+      "interaction_date": "2025-03-16T18:53:40.584027",
+      "type": "question_paiement",
+      "channel": "courrier",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "fermée",
+      "priority": "urgente",
+      "handled_by": "Inès Gallet",
+      "resolution_time_minutes": 65,
+      "customer_satisfaction": 5
+    },
+    {
+      "interaction_id": "INT-1742466558-5328",
+      "customer_id": "C31503",
+      "customer_name": "Lucy Hamel",
+      "interaction_date": "2025-02-23T00:57:42.298044",
+      "type": "question_paiement",
+      "channel": "courrier",
+      "subject": "Interaction question_paiement",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "resolue",
+      "priority": "haute",
+      "handled_by": "Simone-Aimée Poirier",
+      "resolution_time_minutes": null,
+      "customer_satisfaction": 3
+    },
+    {
+      "interaction_id": "INT-1742466558-9554",
+      "customer_id": "C54112",
+      "customer_name": "Arnaude Chevalier",
+      "interaction_date": "2025-03-20T01:23:41.841978",
+      "type": "retour_produit",
+      "channel": "chat",
+      "subject": "Demande de retour produit",
+      "notes": "Le client souhaite retourner un article qui ne convient pas à ses attentes.",
+      "status": "ouverte",
+      "priority": "urgente",
+      "handled_by": "Caroline-Brigitte De Sousa",
+      "resolution_time_minutes": null,
+      "customer_satisfaction": 4
+    },
+    {
+      "interaction_id": "INT-1742466558-1120",
+      "customer_id": "C72065",
+      "customer_name": "Marguerite Techer",
+      "interaction_date": "2025-03-19T23:54:30.760004",
+      "type": "demande_facture",
+      "channel": "courrier",
+      "subject": "Interaction demande_facture",
+      "notes": "Notes générales concernant cette interaction client.",
+      "status": "resolue",
+      "priority": "urgente",
+      "handled_by": "Élodie Noël",
+      "resolution_time_minutes": 84,
+      "customer_satisfaction": null
+    }
+  ]
+}
