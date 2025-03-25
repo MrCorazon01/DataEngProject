@@ -5,6 +5,7 @@ import logging
 import threading
 import subprocess
 from pathlib import Path
+import socket
 
 # Configuration du logging
 logging.basicConfig(
@@ -13,15 +14,57 @@ logging.basicConfig(
 )
 logger = logging.getLogger('pipeline_starter')
 
+def check_port_available(host, port):
+    """Vérifie si un port est disponible sur un hôte donné"""
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
+        s.connect((host, port))
+        s.shutdown(socket.SHUT_RDWR)
+        return True
+    except:
+        return False
+    finally:
+        s.close()
+
+def wait_for_kafka(max_retries=10, retry_interval=5):
+    """Attend que Kafka soit disponible"""
+    logger.info(f"Vérification de la disponibilité de Kafka...")
+    retries = 0
+    while retries < max_retries:
+        if check_port_available('localhost', 29092):
+            logger.info("Kafka est disponible.")
+            return True
+        logger.info(f"Kafka n'est pas encore disponible. Attente ({retries+1}/{max_retries})...")
+        retries += 1
+        time.sleep(retry_interval)
+    logger.error(f"Kafka n'est pas disponible après {max_retries} tentatives.")
+    return False
+
 def start_kafka_infrastructure():
     """Démarre l'infrastructure Kafka avec Docker Compose"""
     logger.info("Démarrage de l'infrastructure Kafka...")
     try:
+        # Vérifier si Docker est en cours d'exécution
+        try:
+            subprocess.run(["docker", "info"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except subprocess.CalledProcessError:
+            logger.error("Docker n'est pas démarré. Veuillez démarrer Docker avant de lancer le pipeline.")
+            return False
+            
+        # Démarrer les conteneurs
+        subprocess.run(["docker-compose", "down"], check=False)  # Arrêter d'abord les conteneurs existants
         subprocess.run(["docker-compose", "up", "-d"], check=True)
-        logger.info("Infrastructure Kafka démarrée avec succès")
-        # Attendre que les services soient prêts
-        logger.info("Attente de 20 secondes pour que les services soient prêts...")
-        time.sleep(20)
+        logger.info("Infrastructure Kafka démarrée avec succès. Attente de la disponibilité des services...")
+        
+        # Attendre que Kafka soit prêt
+        if not wait_for_kafka(max_retries=15, retry_interval=5):
+            logger.error("Timeout en attendant le démarrage complet de Kafka")
+            return False
+        
+        # Attente supplémentaire pour que Schema Registry soit prêt
+        logger.info("Attente supplémentaire pour que tous les services soient prêts...")
+        time.sleep(10)
+        
         return True
     except subprocess.CalledProcessError as e:
         logger.error(f"Erreur lors du démarrage de l'infrastructure Kafka: {e}")
@@ -32,12 +75,21 @@ def setup_kafka_topics():
     logger.info("Configuration des topics Kafka...")
     try:
         from data_ingestion.kafka_setup import KafkaSetup
-        setup = KafkaSetup()
+        
+        # Configuration spécifique avec le bon port
+        config = {
+            "bootstrap.servers": "localhost:29092",  # Utiliser le port exposé par Docker
+            "client.id": "kafka-setup-client"
+        }
+        
+        setup = KafkaSetup(config)
+        setup.list_topics()  # Vérifier la connexion
         setup.create_topics()
         logger.info("Topics Kafka configurés avec succès")
         return True
     except Exception as e:
         logger.error(f"Erreur lors de la configuration des topics Kafka: {e}")
+        logger.exception("Détails de l'erreur:")
         return False
 
 def start_web_events_producer(events_per_second=10, duration_seconds=None):
@@ -194,8 +246,14 @@ def main():
     threads = []
     
     if args.kafka or args.all:
-        start_kafka_infrastructure()
-        setup_kafka_topics()
+        kafka_success = start_kafka_infrastructure()
+        if kafka_success:
+            setup_result = setup_kafka_topics()
+            if not setup_result:
+                logger.warning("Échec de la configuration des topics. Tentative de continuer quand même...")
+        else:
+            logger.error("Échec du démarrage de Kafka. Arrêt du pipeline.")
+            return
         
     if args.producer or args.all:
         producer_thread = start_web_events_producer(

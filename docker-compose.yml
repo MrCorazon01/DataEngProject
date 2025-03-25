@@ -2,7 +2,7 @@ version: '3'
 
 services:
   zookeeper:
-    image: confluentinc/cp-zookeeper:7.3.0
+    image: confluentinc/cp-zookeeper:7.3.2
     hostname: zookeeper
     container_name: zookeeper
     ports:
@@ -13,13 +13,20 @@ services:
     volumes:
       - zookeeper-data:/var/lib/zookeeper/data
       - zookeeper-log:/var/lib/zookeeper/log
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "2181"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 5s
 
   kafka:
-    image: confluentinc/cp-kafka:7.3.0
+    image: confluentinc/cp-kafka:7.3.2
     hostname: kafka
     container_name: kafka
     depends_on:
-      - zookeeper
+      zookeeper:
+        condition: service_healthy
     ports:
       - "9092:9092"
       - "29092:29092"
@@ -27,15 +34,25 @@ services:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_LOG_RETENTION_HOURS: 168  # 7 jours
       KAFKA_LOG_SEGMENT_BYTES: 1073741824  # 1 GB
+      # Paramètres pour résoudre certains problèmes de démarrage
+      KAFKA_HEAP_OPTS: "-Xmx512M -Xms512M"
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_NUM_PARTITIONS: 3
     volumes:
       - kafka-data:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD", "kafka-topics", "--bootstrap-server", "localhost:9092", "--list"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 5s
 
   schema-registry:
     image: confluentinc/cp-schema-registry:7.3.0
@@ -49,6 +66,12 @@ services:
       SCHEMA_REGISTRY_HOST_NAME: schema-registry
       SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: 'kafka:9092'
       SCHEMA_REGISTRY_LISTENERS: http://0.0.0.0:8081
+    healthcheck:
+      test: curl -f http://schema-registry:8081/subjects || exit 1
+      interval: 10s
+      retries: 20
+      start_period: 40s
+      timeout: 5s
 
   kafka-ui:
     image: provectuslabs/kafka-ui:latest
@@ -56,13 +79,18 @@ services:
     ports:
       - "8080:8080"
     environment:
-      KAFKA_CLUSTERS_0_NAME: local
-      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
-      KAFKA_CLUSTERS_0_ZOOKEEPER: zookeeper:2181
-      KAFKA_CLUSTERS_0_SCHEMAREGISTRY: http://schema-registry:8081
+      - KAFKA_CLUSTERS_0_NAME=local
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:29092
+      - KAFKA_CLUSTERS_0_ZOOKEEPER=zookeeper:2181
     depends_on:
       - kafka
       - schema-registry
+    healthcheck:
+      test: wget --no-verbose --tries=1 --spider http://localhost:8080 || exit 1
+      interval: 10s
+      retries: 10
+      start_period: 40s
+      timeout: 5s
 
 volumes:
   zookeeper-data:

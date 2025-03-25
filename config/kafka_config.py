@@ -2,10 +2,15 @@ import os
 
 # Configuration Kafka
 KAFKA_CONFIG = {
-    "bootstrap.servers": os.environ.get("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092"),
+    # Utiliser le port 29092 qui est exposé par Docker Compose pour les clients externes
+    "bootstrap.servers": os.environ.get("KAFKA_BOOTSTRAP_SERVERS", "localhost:29092"),
     "client.id": "biocosmetics-client",
     "auto.offset.reset": "earliest",
-    "group.id": "biocosmetics-consumer-group"
+    "group.id": "biocosmetics-consumer-group",
+    # Ajouter timeout pour éviter les blocages
+    "socket.timeout.ms": 10000,
+    "request.timeout.ms": 20000,
+    "metadata.request.timeout.ms": 20000
 }
 
 # Configuration des topics
